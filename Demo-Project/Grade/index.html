@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+</head>
+<body>
+    <h1>Student Grade Calculator</h1>
+    <form id="gradeForm">
+        <label for="csi101">CSI101 (3 หน่วยกิต):</label>
+        <input type="number" id="csi101" min="0" max="100" required> คะแนน<br><br>
+
+        <label for="csi102">CSI102 (3 หน่วยกิต):</label>
+        <input type="number" id="csi102" min="0" max="100" required> คะแนน<br><br>
+
+        <label for="csi203">CSI203 (3 หน่วยกิต):</label>
+        <input type="number" id="csi203" min="0" max="100" required> คะแนน<br><br>
+
+        <label for="csi204">CSI204 (3 หน่วยกิต):</label>
+        <input type="number" id="csi204" min="0" max="100" required> คะแนน<br><br>
+
+        <label for="csi305">CSI305 (3 หน่วยกิต):</label>
+        <input type="number" id="csi305" min="0" max="100" required> คะแนน<br><br>
+
+        <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
