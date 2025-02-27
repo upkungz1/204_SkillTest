@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Project</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Demo Project</h1>
+
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput">
+    <button id="addButton">เพิ่ม</button>
+    <ul id="taskList"></ul>
+
+    <h2>Student Grade Calculator</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>รหัสวิชา</th>
+                <th>คะแนน</th>
+                <th>หน่วยกิต</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>CSI101</td><td><input type="number" id="CSI101"></td><td>3</td></tr>
+            <tr><td>CSI102</td><td><input type="number" id="CSI102"></td><td>3</td></tr>
+            <tr><td>CSI203</td><td><input type="number" id="CSI203"></td><td>3</td></tr>
+            <tr><td>CSI204</td><td><input type="number" id="CSI204"></td><td>3</td></tr>
+            <tr><td>CSI305</td><td><input type="number" id="CSI305"></td><td>3</td></tr>
+        </tbody>
+    </table>
+    <button onclick="calculateGPA()">คำนวณ GPA</button>
+    <p id="gpaResult"></p>
+
+    <h2>API Data</h2>
+    <ul id="userList"></ul>
+
+    <h2>Lottery Generator</h2>
+    <input type="text" id="userGuess" maxlength="6">
+    <button onclick="checkLottery()">ตรวจรางวัล</button>
+
+</body>
+</html>
