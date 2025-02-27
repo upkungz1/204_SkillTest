@@ -1,0 +1,25 @@
+body {
+    transition: background-color 0.5s ease;
+}
+
+.hover-me {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; /* เพิ่ม transition */
+}
+
+.hover-me:hover { /* เพิ่ม hover style */
+    background-color: #fdafaf;
+}
+
+.key-up-input {
+    padding: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease; /* เพิ่ม transition */
+}
+
+.key-up-input:focus { /* เพิ่ม focus style */
+    border-color: #f89593;
+    outline: none;
+}
