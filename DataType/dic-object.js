@@ -4,4 +4,4 @@ let student = {
     grade: "A",
   };
   
-  console.log(student.name);
+  console.log("Name : " +student.name, "Age : " +student.age, "Grade : " +student.grade);
